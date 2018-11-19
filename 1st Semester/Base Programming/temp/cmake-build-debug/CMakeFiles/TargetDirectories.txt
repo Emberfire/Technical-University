@@ -1,0 +1,3 @@
+D:/Technical University/1st Semester/Base Programming/temp/cmake-build-debug/CMakeFiles/temp.dir
+D:/Technical University/1st Semester/Base Programming/temp/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Technical University/1st Semester/Base Programming/temp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
