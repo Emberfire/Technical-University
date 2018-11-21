@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Technical University\1st Semester\Base Programming\Course Work 1 Problem 1"
+CMAKE_SOURCE_DIR = "S:\Technical University\1st Semester\Base Programming\Course Work 1 Problem 1"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Technical University\1st Semester\Base Programming\Course Work 1 Problem 1\cmake-build-debug"
+CMAKE_BINARY_DIR = "S:\Technical University\1st Semester\Base Programming\Course Work 1 Problem 1\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Course_Work_1_Problem_1.dir/depend.make
@@ -58,16 +58,16 @@ include CMakeFiles/Course_Work_1_Problem_1.dir/flags.make
 
 CMakeFiles/Course_Work_1_Problem_1.dir/main.cpp.obj: CMakeFiles/Course_Work_1_Problem_1.dir/flags.make
 CMakeFiles/Course_Work_1_Problem_1.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Technical University\1st Semester\Base Programming\Course Work 1 Problem 1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Course_Work_1_Problem_1.dir/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Course_Work_1_Problem_1.dir\main.cpp.obj -c "D:\Technical University\1st Semester\Base Programming\Course Work 1 Problem 1\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="S:\Technical University\1st Semester\Base Programming\Course Work 1 Problem 1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Course_Work_1_Problem_1.dir/main.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Course_Work_1_Problem_1.dir\main.cpp.obj -c "S:\Technical University\1st Semester\Base Programming\Course Work 1 Problem 1\main.cpp"
 
 CMakeFiles/Course_Work_1_Problem_1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Course_Work_1_Problem_1.dir/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Technical University\1st Semester\Base Programming\Course Work 1 Problem 1\main.cpp" > CMakeFiles\Course_Work_1_Problem_1.dir\main.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "S:\Technical University\1st Semester\Base Programming\Course Work 1 Problem 1\main.cpp" > CMakeFiles\Course_Work_1_Problem_1.dir\main.cpp.i
 
 CMakeFiles/Course_Work_1_Problem_1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Course_Work_1_Problem_1.dir/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Technical University\1st Semester\Base Programming\Course Work 1 Problem 1\main.cpp" -o CMakeFiles\Course_Work_1_Problem_1.dir\main.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "S:\Technical University\1st Semester\Base Programming\Course Work 1 Problem 1\main.cpp" -o CMakeFiles\Course_Work_1_Problem_1.dir\main.cpp.s
 
 # Object files for target Course_Work_1_Problem_1
 Course_Work_1_Problem_1_OBJECTS = \
@@ -81,7 +81,7 @@ Course_Work_1_Problem_1.exe: CMakeFiles/Course_Work_1_Problem_1.dir/build.make
 Course_Work_1_Problem_1.exe: CMakeFiles/Course_Work_1_Problem_1.dir/linklibs.rsp
 Course_Work_1_Problem_1.exe: CMakeFiles/Course_Work_1_Problem_1.dir/objects1.rsp
 Course_Work_1_Problem_1.exe: CMakeFiles/Course_Work_1_Problem_1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Technical University\1st Semester\Base Programming\Course Work 1 Problem 1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Course_Work_1_Problem_1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="S:\Technical University\1st Semester\Base Programming\Course Work 1 Problem 1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Course_Work_1_Problem_1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Course_Work_1_Problem_1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -94,6 +94,6 @@ CMakeFiles/Course_Work_1_Problem_1.dir/clean:
 .PHONY : CMakeFiles/Course_Work_1_Problem_1.dir/clean
 
 CMakeFiles/Course_Work_1_Problem_1.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Technical University\1st Semester\Base Programming\Course Work 1 Problem 1" "D:\Technical University\1st Semester\Base Programming\Course Work 1 Problem 1" "D:\Technical University\1st Semester\Base Programming\Course Work 1 Problem 1\cmake-build-debug" "D:\Technical University\1st Semester\Base Programming\Course Work 1 Problem 1\cmake-build-debug" "D:\Technical University\1st Semester\Base Programming\Course Work 1 Problem 1\cmake-build-debug\CMakeFiles\Course_Work_1_Problem_1.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "S:\Technical University\1st Semester\Base Programming\Course Work 1 Problem 1" "S:\Technical University\1st Semester\Base Programming\Course Work 1 Problem 1" "S:\Technical University\1st Semester\Base Programming\Course Work 1 Problem 1\cmake-build-debug" "S:\Technical University\1st Semester\Base Programming\Course Work 1 Problem 1\cmake-build-debug" "S:\Technical University\1st Semester\Base Programming\Course Work 1 Problem 1\cmake-build-debug\CMakeFiles\Course_Work_1_Problem_1.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Course_Work_1_Problem_1.dir/depend
 
