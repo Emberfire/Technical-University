@@ -1,0 +1,3 @@
+S:/Technical University/1st Semester/Base Programming/Lecture 7/Problem 5/cmake-build-debug/CMakeFiles/Problem_5.dir
+S:/Technical University/1st Semester/Base Programming/Lecture 7/Problem 5/cmake-build-debug/CMakeFiles/edit_cache.dir
+S:/Technical University/1st Semester/Base Programming/Lecture 7/Problem 5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
