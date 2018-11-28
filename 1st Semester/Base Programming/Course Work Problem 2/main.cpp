@@ -5,7 +5,7 @@ class Guide;
 void insertData();
 
 int main() {
-    Guide guides[30];
+    Guide* guides[30];
     int command;
 
     std::cout << "Please select a command from the menu and write its number:\n"
