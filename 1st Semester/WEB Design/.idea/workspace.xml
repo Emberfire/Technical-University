@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ff06aaa-5d2f-4273-a133-9057ca54305b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Lecture 6/Problem 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture 6/Problem 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture 7/Function Sources.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture 7/Problem 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture 7/Problem 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture 7/Problem 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture 7/Problem 4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture 8/Function Sources.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture 8/Problems.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture 9/Function Sources.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lecture 9/Problems.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 6/Function Sources.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture 6/Function Sources.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lecture 6/Problem 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture 6/Problem 1.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,41 +19,42 @@
     <session id="-686510509">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="14" />
-          <entry key="js" value="8" />
+          <entry key="html" value="15" />
+          <entry key="js" value="9" />
           <entry key="ts" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="14" />
-          <entry key="JavaScript" value="8" />
+          <entry key="HTML" value="15" />
+          <entry key="JavaScript" value="9" />
           <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="JavaScript Console" value="2" />
-          <entry key="html" value="590" />
-          <entry key="js" value="2655" />
+          <entry key="html" value="718" />
+          <entry key="js" value="4340" />
           <entry key="txt" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="590" />
-          <entry key="JavaScript" value="2657" />
+          <entry key="HTML" value="718" />
+          <entry key="JavaScript" value="4342" />
           <entry key="PLAIN_TEXT" value="24" />
         </counts>
       </usages-collector>
@@ -74,28 +66,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lecture 7/Function Sources.js">
+        <entry file="file://$PROJECT_DIR$/Lecture 9/Problems.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lecture 7/Problem 3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            <state relative-caret-position="304">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lecture 7/Problem 4.html">
+        <entry file="file://$PROJECT_DIR$/Lecture 9/Function Sources.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            <state relative-caret-position="771">
+              <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -105,8 +88,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -147,6 +130,8 @@
         <option value="$PROJECT_DIR$/Lecture 7/Problem 3.html" />
         <option value="$PROJECT_DIR$/Lecture 7/Function Sources.js" />
         <option value="$PROJECT_DIR$/Lecture 7/Problem 4.html" />
+        <option value="$PROJECT_DIR$/Lecture 9/Problems.html" />
+        <option value="$PROJECT_DIR$/Lecture 9/Function Sources.js" />
       </list>
     </option>
   </component>
@@ -266,6 +251,7 @@
       <workItem from="1542825380838" duration="1296000" />
       <workItem from="1542828804291" duration="5141000" />
       <workItem from="1542842491648" duration="2026000" />
+      <workItem from="1543397961097" duration="4469000" />
     </task>
     <task id="LOCAL-00001" summary="Started lecture 6">
       <created>1542766129910</created>
@@ -278,7 +264,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24225000" />
+    <option name="totallyTimeSpent" value="28694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -537,22 +523,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lecture 7/Function Sources.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        <state relative-caret-position="931">
+          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lecture 7/Problem 3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lecture 7/Problem 4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="133">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture 9/Problems.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture 9/Function Sources.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="771">
+          <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
         </state>
       </provider>
     </entry>
