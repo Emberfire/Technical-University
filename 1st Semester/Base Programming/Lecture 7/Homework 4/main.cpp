@@ -1,43 +1,56 @@
 #include <iostream>
-#include <vector>
 
-void insertInArray(int number);
+void insertInArray(int n, int numbers[]);
 
-void printArray();
+void printArray(int n, int numbers[]);
 
-std::vector<int> numbers;
+int gcd(int a, int b);
 
-int gcd(std::vector<int> vector, int n);
+int gcd(int numbers[], int n);
 
 int main() {
-    int number;
-    std::cout << "Enter a number, or enter '0' for end of input: ";
-    std::cin >> number;
+    int n;
+    std::cout << "Enter how many numbers will be inserted: ";
+    std::cin >> n;
+    int numbers[n];
 
-    while (number != 0) {
-        insertInArray(number);
+    insertInArray(n, numbers);
+    printArray(n, numbers);
+    gcd(numbers, n);
+}
+
+void insertInArray(int n, int numbers[]) {
+    for (int i = 0; i < n; ++i) {
+        int number;
+        std::cout << "Enter a number, or enter '0' for end of input: ";
         std::cin >> number;
+        if (number != 0) {
+            numbers[i] = number;
+        }
+    }}
+
+void printArray(int n, int numbers[]) {
+    for (int i = 0; i < n; ++i) {
+        std::cout << numbers[i] << ' ';
     }
 
-    printArray();
-    gcd(numbers, static_cast<int>(numbers.size()));
+    std::cout << "\n";
 }
 
-void insertInArray(int number) {
-    numbers.push_back(number);
-}
-
-void printArray() {
-    for (int number : numbers) {
-        std::cout << number;
+int gcd(int a, int b)
+{
+    if (a == 0) {
+        return b;
     }
+
+    return gcd(b % a, a);
 }
 
-int gcd(std::vector<int> vector, int n) {
-    int result = vector[0];
+int gcd(int numbers[], int n) {
+    int result = numbers[0];
     for (int i = 1; i < n; ++i) {
-        result = gcd(vector[i], result);
+        result = gcd(numbers[i], result);
     }
 
-    return result;
+    std::cout << result;
 }
