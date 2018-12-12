@@ -1,4 +1,4 @@
-# Install script for directory: S:/Technical University/1st Semester/Base Programming/Course Work Task 2 Version 1
+# Install script for directory: D:/Technical University/1st Semester/Base Programming/Course Work Task 2 Version 1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "S:/Technical University/1st Semester/Base Programming/Course Work Task 2 Version 1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Technical University/1st Semester/Base Programming/Course Work Task 2 Version 1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

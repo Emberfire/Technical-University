@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-S:/Technical University/1st Semester/Base Programming/Course Work Task 2 Version 1/main.cpp
+D:/Technical University/1st Semester/Base Programming/Course Work Task 2 Version 1/main.cpp
 iostream
+-
+fstream
 -
 
