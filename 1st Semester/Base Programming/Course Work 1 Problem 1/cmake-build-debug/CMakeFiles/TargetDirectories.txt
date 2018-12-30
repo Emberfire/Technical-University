@@ -1,3 +1,0 @@
-S:/Technical University/1st Semester/Base Programming/Course Work 1 Problem 1/cmake-build-debug/CMakeFiles/Course_Work_1_Problem_1.dir
-S:/Technical University/1st Semester/Base Programming/Course Work 1 Problem 1/cmake-build-debug/CMakeFiles/edit_cache.dir
-S:/Technical University/1st Semester/Base Programming/Course Work 1 Problem 1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

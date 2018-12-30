@@ -1,6 +1,16 @@
+//Task 2: create a program with a function main() and a choice between functions via menu:
+//  1.      Entering a number of guides(their information) in an array and a file with
+//      a maximum of 30 guides. Information contains their name, family name, sex, birth date,
+//      country, number and a total of their income.
+//  2.      Search of a specific guide by name and birth date, or display that there is no
+//      information for said guide in the database.
+//  3.      Printing on the console of every guide in a country, provided by the console,
+//      or printing that there are no guides from that country.
+
 #include <iostream>
 #include <fstream>
 
+//Declaring the struct of the guide that's used with its properties
 struct Guide {
     std::string firstName;
     std::string lastName;
@@ -10,6 +20,7 @@ struct Guide {
     double income;
 };
 
+//Declaring the prototypes of the functions called in the main
 void insertData(Guide guides[30]);
 
 void printArray(Guide guides[30]);
@@ -19,6 +30,7 @@ void searchByFamilyNameAndBirthday(Guide guides[30]);
 void searchByCountries(Guide guides[30]);
 
 int main() {
+    //Declaring the array of structs, used to store the information
     Guide guides[30];
 
     int command;
@@ -42,8 +54,6 @@ int main() {
             case 3:
                 searchByCountries(guides);
                 break;
-            case 4:
-                break;
             default:
                 std::cout << "Error, invalid command.\n";
         }
@@ -53,6 +63,7 @@ int main() {
     }
 }
 
+//Takes a single instance of a struct and writes it to a txt file
 void insertDataInFile(Guide guide) {
     std::ofstream guidesFile;
     guidesFile.open("guides.txt", std::ios::app);
@@ -65,6 +76,7 @@ void insertDataInFile(Guide guide) {
     guidesFile.close();
 }
 
+//Accepts user input from the console and saves it in the array of structs
 void insertData(Guide guides[30]) {
     std::string firstName;
     std::string lastName;
@@ -79,6 +91,7 @@ void insertData(Guide guides[30]) {
     std::cout << "Enter the guide's last name: ";
     std::cin >> lastName;
 
+    //Checks if the sex is invalid
     std::cout << "Enter the guide's sex (Male/Female): ";
     std::cin >> sex;
     while (sex != "Male" && sex != "Female") {
@@ -95,6 +108,7 @@ void insertData(Guide guides[30]) {
     std::cout << "Enter the guide's total income: ";
     std::cin >> income;
 
+    //Assigning properties to an instance of the struct, that will be added to the array
     Guide guide;
     guide.firstName = firstName;
     guide.lastName = lastName;
@@ -103,6 +117,7 @@ void insertData(Guide guides[30]) {
     guide.country = country;
     guide.income = income;
 
+    //Checking the array if there is an empty slot for the struct to be added
     for (int i = 0; i < 30; ++i) {
         if (guides[i].firstName.empty()) {
             guides[i] = guide;
@@ -111,14 +126,17 @@ void insertData(Guide guides[30]) {
     }
 
     printArray(guides);
+    //Calling the function above to put the struct in the file
     insertDataInFile(guide);
 }
 
+//Prints the array on the console
 void printArray(Guide guides[30]) {
     std::cout << "\tGuides:\n";
     for (int i = 0; i < 30; ++i) {
         if (!guides[i].firstName.empty()) {
             std::printf("\t\t%s %s\n\t\t%s\n\t\tBorn on %s\n\t\tFrom %s\n\t\tIncome: %f\n\n",
+                        //Using c_str() to convert to the old type of string in C++ (needed)
                         guides[i].firstName.c_str(),
                         guides[i].lastName.c_str(),
                         guides[i].sex.c_str(),
@@ -129,6 +147,7 @@ void printArray(Guide guides[30]) {
     }
 }
 
+//Searches the array for an entry with the data provided and prints it on the console
 void searchByFamilyNameAndBirthday(Guide guides[30]) {
     std::string familyName;
     std::string birthday;
@@ -158,6 +177,7 @@ void searchByFamilyNameAndBirthday(Guide guides[30]) {
     }
 }
 
+//Displays all the entries in the array with a country, provided by the console input
 void searchByCountries(Guide guides[30]) {
     std::string country;
     std::cout << "Enter country: ";
