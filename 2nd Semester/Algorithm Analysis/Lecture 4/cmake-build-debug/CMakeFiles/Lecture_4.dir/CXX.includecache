@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+S:/Technical-University/2nd Semester/Algorithm Analysis/Lecture 4/Tasks.h
+iostream
+-
+
+S:/Technical-University/2nd Semester/Algorithm Analysis/Lecture 4/main.cpp
+iostream
+-
+Tasks.h
+S:/Technical-University/2nd Semester/Algorithm Analysis/Lecture 4/Tasks.h
+

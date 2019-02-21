@@ -1,0 +1,3 @@
+S:/Technical-University/2nd Semester/Algorithm Analysis/Lecture 2/Tasks/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+S:/Technical-University/2nd Semester/Algorithm Analysis/Lecture 2/Tasks/cmake-build-debug/CMakeFiles/Tasks.dir
+S:/Technical-University/2nd Semester/Algorithm Analysis/Lecture 2/Tasks/cmake-build-debug/CMakeFiles/edit_cache.dir
