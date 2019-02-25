@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+S:/Technical-University/2nd Semester/Basic Programming/Lecture 3/Tasks.h
+iostream
+-
+cstring
+-
+fstream
+-
+
+S:/Technical-University/2nd Semester/Basic Programming/Lecture 3/main.cpp
+iostream
+-
+Tasks.h
+S:/Technical-University/2nd Semester/Basic Programming/Lecture 3/Tasks.h
+
