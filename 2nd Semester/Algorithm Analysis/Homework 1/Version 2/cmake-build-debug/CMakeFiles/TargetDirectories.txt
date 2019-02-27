@@ -1,0 +1,3 @@
+S:/Technical-University/2nd Semester/Algorithm Analysis/Homework 1/Version 2/cmake-build-debug/CMakeFiles/Version_2.dir
+S:/Technical-University/2nd Semester/Algorithm Analysis/Homework 1/Version 2/cmake-build-debug/CMakeFiles/edit_cache.dir
+S:/Technical-University/2nd Semester/Algorithm Analysis/Homework 1/Version 2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
