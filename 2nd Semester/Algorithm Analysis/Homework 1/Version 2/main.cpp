@@ -3,7 +3,7 @@
 #include <functional>
 #include <iomanip>
 
-double countChange(double change, int typeOfCoin, int amountReached);
+int countChange(double change, int coin);
 int amountReached = 0;
 int coinsUsed = 0;
 
@@ -28,25 +28,21 @@ int main() {
     std::cin >> changeUnprocessed;
     change = changeUnprocessed * 100;
     std::sort(coins, coins + amountOfCoins, std::greater<int>());
-    
+
     for (int i = 0; i < amountOfCoins; ++i) {
-        if (amountReached == change) {
-            break;
-        }
-        
-        countChange(change, coins[i], amountReached);
+        countChange(change, coins[i]);
     }
 
-    std::cout << amountReached;
     std::cout << "\nMinimum coins used: " << coinsUsed;
     std::cout << "\nThe Change is: " << change / 100;
 }
 
-double countChange(double change, int typeOfCoin) {
-    if (amountReached + typeOfCoin > change) {
+int countChange(double change, int coin) {
+    if (amountReached + coin > change || amountReached == change) {
         return 0;
-    } else if (amountReached + typeOfCoin == change) {
-        return typeOfCoin;
     }
 
-    coinsUsed
+    amountReached += coin;
+    coinsUsed++;
+    return amountReached + countChange(change, coin);
+}
