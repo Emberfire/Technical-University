@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+S:/Technical-University/2nd Semester/Algorithm Analysis/Homework 2/Version 2/main.cpp
+iostream
+-
+algorithm
+-
+functional
+-
+iomanip
+-
+

@@ -3,7 +3,7 @@
 #include <functional>
 #include <iomanip>
 
-int countChange(double change, int coin);
+int countChange(double change, int coin, int coinCount[]);
 int amountReached = 0;
 int coinsUsed = 0;
 
@@ -17,6 +17,7 @@ int main() {
     std::cin >> amountOfCoins;
 
     int coins[amountOfCoins];
+    int coinCount[amountOfCoins];
 
     for (int i = 0; i < amountOfCoins; ++i) {
         std::cout << "\nEnter a coin amount (10 for 10 cents, 100 for 100 cents etc): ";
@@ -30,19 +31,24 @@ int main() {
     std::sort(coins, coins + amountOfCoins, std::greater<int>());
 
     for (int i = 0; i < amountOfCoins; ++i) {
-        countChange(change, coins[i]);
+        countChange(change, coins[i], coinCount);
     }
 
     std::cout << "\nMinimum coins used: " << coinsUsed;
+    for (int i = 0; i < amountOfCoins; ++i) {
+        std::cout << "\n" << coinCount[i] << "x" << coins[i];
+    }
     std::cout << "\nThe Change is: " << change / 100;
+
 }
 
-int countChange(double change, int coin) {
+int countChange(double change, int coin, int coinCount[]) {
     if (amountReached + coin > change || amountReached == change) {
         return 0;
     }
 
     amountReached += coin;
     coinsUsed++;
-    return amountReached + countChange(change, coin);
+    coinCount[std::find(coinCount[0], coinCount[sizeof(coinCount) - 1], coin)]++;
+    return amountReached + countChange(change, coin, coinCount);
 }
