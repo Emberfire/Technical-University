@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "S:\Technical-University\2nd Semester\Algorithm Analysis\Lecture 9"
+CMAKE_SOURCE_DIR = "S:\Technical-University\2nd Semester\Algorithm Analysis\Homework 4"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "S:\Technical-University\2nd Semester\Algorithm Analysis\Lecture 9\cmake-build-debug"
+CMAKE_BINARY_DIR = "S:\Technical-University\2nd Semester\Algorithm Analysis\Homework 4\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "S:\Technical-University\2nd Semester\Algorithm Analysis\Lecture 9\cmake-build-debug\CMakeFiles" "S:\Technical-University\2nd Semester\Algorithm Analysis\Lecture 9\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "S:\Technical-University\2nd Semester\Algorithm Analysis\Homework 4\cmake-build-debug\CMakeFiles" "S:\Technical-University\2nd Semester\Algorithm Analysis\Homework 4\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "S:\Technical-University\2nd Semester\Algorithm Analysis\Lecture 9\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "S:\Technical-University\2nd Semester\Algorithm Analysis\Homework 4\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Lecture_9
+# Target rules for targets named Homework_4
 
 # Build rule for target.
-Lecture_9: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Lecture_9
-.PHONY : Lecture_9
+Homework_4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Homework_4
+.PHONY : Homework_4
 
 # fast build rule for target.
-Lecture_9/fast:
-	$(MAKE) -f CMakeFiles\Lecture_9.dir\build.make CMakeFiles/Lecture_9.dir/build
-.PHONY : Lecture_9/fast
+Homework_4/fast:
+	$(MAKE) -f CMakeFiles\Homework_4.dir\build.make CMakeFiles/Homework_4.dir/build
+.PHONY : Homework_4/fast
 
 main.obj: main.cpp.obj
 
@@ -128,7 +128,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Lecture_9.dir\build.make CMakeFiles/Lecture_9.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\Homework_4.dir\build.make CMakeFiles/Homework_4.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -137,7 +137,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\Lecture_9.dir\build.make CMakeFiles/Lecture_9.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\Homework_4.dir\build.make CMakeFiles/Homework_4.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -146,7 +146,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\Lecture_9.dir\build.make CMakeFiles/Lecture_9.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\Homework_4.dir\build.make CMakeFiles/Homework_4.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -155,8 +155,8 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... Lecture_9
 	@echo ... edit_cache
+	@echo ... Homework_4
 	@echo ... rebuild_cache
 	@echo ... main.obj
 	@echo ... main.i
