@@ -9,17 +9,7 @@ void push(int n);
 int pop();
 void add(int n);
 int remove();
-void print() {
-    if (start != nullptr) {
-        Deque *temp = start;
-        while (temp) {
-            std::cout << temp->key << " ";
-            temp = temp->next;
-        }
-    } else {
-        std::cout << "\nDeque is empty.";
-    }
-}
+void print();
 
 int main() {
     Deque deque{};
@@ -88,5 +78,17 @@ int remove() {
         return n;
     } else {
         return 0;
+    }
+}
+
+void print() {
+    if (start != nullptr) {
+        Deque *temp = start;
+        while (temp) {
+            std::cout << temp->key << "\t";
+            temp = temp->next;
+        }
+    } else {
+        std::cout << "\nDeque is empty.";
     }
 }
