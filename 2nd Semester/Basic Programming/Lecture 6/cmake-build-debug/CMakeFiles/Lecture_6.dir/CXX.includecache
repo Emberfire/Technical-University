@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+S:/Technical-University/2nd Semester/Basic Programming/Lecture 6/main.cpp
+iostream
+-
+cstdlib
+-
+ctime
+-
+

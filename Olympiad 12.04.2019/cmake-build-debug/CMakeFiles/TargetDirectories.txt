@@ -1,0 +1,3 @@
+S:/Technical-University/Olympiad 12.04.2019/cmake-build-debug/CMakeFiles/Olympiad_12_04_2019.dir
+S:/Technical-University/Olympiad 12.04.2019/cmake-build-debug/CMakeFiles/edit_cache.dir
+S:/Technical-University/Olympiad 12.04.2019/cmake-build-debug/CMakeFiles/rebuild_cache.dir
